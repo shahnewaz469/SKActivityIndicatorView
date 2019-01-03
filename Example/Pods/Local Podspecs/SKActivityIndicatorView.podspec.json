@@ -1,8 +1,8 @@
 {
   "name": "SKActivityIndicatorView",
   "version": "0.1.0",
-  "summary": "A short description of SKActivityIndicatorView.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A lightweight and easy-to-use ActivityIndicator for your iOS app written in swift.",
+  "description": "SKActivityIndicatorView is a lightweight and simple ActivityIndicator. Its really easy to integrate and easy-to-use and also has four different ActivityIndicator style with other customization options.",
   "homepage": "https://github.com/SachK13/SKActivityIndicatorView",
   "license": {
     "type": "MIT",
@@ -16,7 +16,14 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "SKActivityIndicatorView/Classes/**/*"
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4.2"
+  },
+  "source_files": "SKActivityIndicatorView/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
 }

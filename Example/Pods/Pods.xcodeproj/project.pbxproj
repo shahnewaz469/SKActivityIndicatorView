@@ -7,17 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0306A7DB1FEC355F00C9134C /* SKActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0306A7DA1FEC355F00C9134C /* SKActivityIndicatorView.swift */; };
-		0306A7DD1FEC357100C9134C /* SKActivityIndicatorViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0306A7DC1FEC357100C9134C /* SKActivityIndicatorViewStyle.swift */; };
-		455BFDDC028541E7940EE6C4B529DF5E /* Pods-SKActivityIndicatorView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D4ED28CFFB70F48570A2702DB94EC5 /* Pods-SKActivityIndicatorView_Example-dummy.m */; };
-		48003A4B5D7006EBA054EA1451522DE3 /* SKActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A53A581056832F2966140954260A4126 /* SKActivityIndicatorView-dummy.m */; };
-		606844539DF29A3D11AFB1716242324C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7261F04274333491576A7EEF3779F306 /* Pods-SKActivityIndicatorView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B69D33A825CAAF9441D5EA48780839F /* Pods-SKActivityIndicatorView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C08068F05501AAAB8E8D5D0CBFA9D98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		9F9290BF089351461CF8436A678506C7 /* SKActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAFB815ABE78BCD499E03DEC72A666C1 /* SKActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A47694943E5F773305E00B075565B76D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		AA0299355DF6DEA985D78B70AEF636E8 /* Pods-SKActivityIndicatorView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 610EED20B8D539F205314A0D780AF513 /* Pods-SKActivityIndicatorView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8A533C2D71FA178217C7E28BC6A6B76 /* Pods-SKActivityIndicatorView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D1FC241C2C1BFC9787594A476B0597 /* Pods-SKActivityIndicatorView_Tests-dummy.m */; };
+		147E8C65FAE2E9DA6E19135CD4088E80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		1ED7B2855A94F850ADFAECCE05C67045 /* SKActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 487B3022959BB8946384FF3EC4F89FFC /* SKActivityIndicatorView-dummy.m */; };
+		3BF7B64FF09C56D523610905095CB745 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		447DBC17C71AC848C56F4A64082F22CF /* SKActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFC7EF90B7994027D9B9A955F0F5AC5 /* SKActivityIndicatorView.swift */; };
+		455BFDDC028541E7940EE6C4B529DF5E /* Pods-SKActivityIndicatorView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA5F25FE6AD2895C709873DF217AAAB /* Pods-SKActivityIndicatorView_Example-dummy.m */; };
+		7028E79840A29F4515C56D211A14DFD5 /* SKActivityIndicatorViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBF12D5436329F12B62ABE2D5DA8B45 /* SKActivityIndicatorViewStyle.swift */; };
+		9F9290BF089351461CF8436A678506C7 /* SKActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 897A2CA7EB3B51C8CEC64F2E3EF9CA9E /* SKActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA0299355DF6DEA985D78B70AEF636E8 /* Pods-SKActivityIndicatorView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B082A87CCF57B70D20D690ED220A26A /* Pods-SKActivityIndicatorView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC42112B4A29C1C78BF35DDC1C5F36A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,55 +29,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0306A7DA1FEC355F00C9134C /* SKActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SKActivityIndicatorView.swift; path = SKActivityIndicatorView/Classes/SKActivityIndicatorView.swift; sourceTree = "<group>"; };
-		0306A7DC1FEC357100C9134C /* SKActivityIndicatorViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SKActivityIndicatorViewStyle.swift; path = SKActivityIndicatorView/Classes/SKActivityIndicatorViewStyle.swift; sourceTree = "<group>"; };
-		039ADF696504640FDEA17BFF4D31CD8B /* Pods_SKActivityIndicatorView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKActivityIndicatorView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		09C7C8487A7EEB15A10220B4089A2533 /* Pods-SKActivityIndicatorView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKActivityIndicatorView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0E50DD1DA14949E720C1B1053E26E347 /* Pods-SKActivityIndicatorView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKActivityIndicatorView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1AECD5E8A1C432C7EB1BF3BFC6C62E74 /* SKActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		29FB0D6E3B84F690D18475C8D877CC17 /* Pods-SKActivityIndicatorView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKActivityIndicatorView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		35D4ED28CFFB70F48570A2702DB94EC5 /* Pods-SKActivityIndicatorView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKActivityIndicatorView_Example-dummy.m"; sourceTree = "<group>"; };
-		3AD278D3FD9B32C1BCE98A4E544B3621 /* SKActivityIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKActivityIndicatorView.xcconfig; sourceTree = "<group>"; };
-		431CD1BC8944C7E68B001D6C79FDEF99 /* Pods-SKActivityIndicatorView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKActivityIndicatorView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4A7C23F581FE7933384BFF3632EC0998 /* Pods-SKActivityIndicatorView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SKActivityIndicatorView_Tests.modulemap"; sourceTree = "<group>"; };
-		4BEF481E649605C584AD344231C6223A /* Pods-SKActivityIndicatorView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKActivityIndicatorView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5B69D33A825CAAF9441D5EA48780839F /* Pods-SKActivityIndicatorView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKActivityIndicatorView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		610EED20B8D539F205314A0D780AF513 /* Pods-SKActivityIndicatorView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKActivityIndicatorView_Example-umbrella.h"; sourceTree = "<group>"; };
-		639C8AB8DC473DA72FAA381401D75CED /* Pods-SKActivityIndicatorView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SKActivityIndicatorView_Example.modulemap"; sourceTree = "<group>"; };
-		6418AEFEB6F2FDC877936A5B7AF0BDC0 /* Pods-SKActivityIndicatorView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKActivityIndicatorView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		758BCB0076C47AD6A3E90EC71D489F04 /* Pods_SKActivityIndicatorView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKActivityIndicatorView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A7006E4547A3B7F2E6B98A42EFDD2B1 /* SKActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
-		8690870FB746657E93B9AF067B44BA35 /* Pods-SKActivityIndicatorView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKActivityIndicatorView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A365E400CE5D073535B664AA14A1458 /* Pods-SKActivityIndicatorView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKActivityIndicatorView_Tests-resources.sh"; sourceTree = "<group>"; };
-		A2F61222673CA035E4BE4F600D83DFA9 /* Pods-SKActivityIndicatorView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKActivityIndicatorView_Example-resources.sh"; sourceTree = "<group>"; };
-		A46107715F2C0F44E4D69A3091436D7F /* SKActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SKActivityIndicatorView.modulemap; sourceTree = "<group>"; };
-		A53A581056832F2966140954260A4126 /* SKActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
-		C085467844C2AE34DB1D1FABD91A4B86 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2D1FC241C2C1BFC9787594A476B0597 /* Pods-SKActivityIndicatorView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKActivityIndicatorView_Tests-dummy.m"; sourceTree = "<group>"; };
-		DBF8F84F045A19720A8BA8A8BB3BDDD2 /* Pods-SKActivityIndicatorView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKActivityIndicatorView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DCFD2970C4EE0C03D2BF397EC20983B7 /* Pods-SKActivityIndicatorView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKActivityIndicatorView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E82A4DD17F98C25852297A62C11B839C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3D71CA32D32E31DA684A035B4233FC8 /* Pods-SKActivityIndicatorView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKActivityIndicatorView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FAFB815ABE78BCD499E03DEC72A666C1 /* SKActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
-		FD620CA464267F58796B184E7D9FB7AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00195C65D5F4BD050C2A1837545ECF0A /* Pods-SKActivityIndicatorView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SKActivityIndicatorView_Example.modulemap"; sourceTree = "<group>"; };
+		0B082A87CCF57B70D20D690ED220A26A /* Pods-SKActivityIndicatorView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKActivityIndicatorView_Example-umbrella.h"; sourceTree = "<group>"; };
+		0C4F4939196E66192F9C0ED4CFDC3065 /* Pods-SKActivityIndicatorView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKActivityIndicatorView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F35B1B412F6E19DE9ECA3F0E9519FE8 /* Pods-SKActivityIndicatorView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKActivityIndicatorView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		21D1926CB3F6CDFCA4C17216BD3BE0BA /* Pods-SKActivityIndicatorView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKActivityIndicatorView_Example-resources.sh"; sourceTree = "<group>"; };
+		2F028B01FA3AF66B61ED7341548A852C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33F3ABC65894AA99AC8F42D7CA4CD108 /* Pods-SKActivityIndicatorView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKActivityIndicatorView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		395D9462B5A70D510B9FB916EEA9323F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3B59F87FE379AEF7BE170B812EA7FA04 /* SKActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKActivityIndicatorView.modulemap; sourceTree = "<group>"; };
+		415B9A76E598002345A6513655EE740B /* Pods_SKActivityIndicatorView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SKActivityIndicatorView_Example.framework; path = "Pods-SKActivityIndicatorView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		487B3022959BB8946384FF3EC4F89FFC /* SKActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
+		5DC1AF9BB9B6E4DE56EE9C641209A8F0 /* SKActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		6EA5F25FE6AD2895C709873DF217AAAB /* Pods-SKActivityIndicatorView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKActivityIndicatorView_Example-dummy.m"; sourceTree = "<group>"; };
+		6FFC7EF90B7994027D9B9A955F0F5AC5 /* SKActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKActivityIndicatorView.swift; path = SKActivityIndicatorView/Classes/SKActivityIndicatorView.swift; sourceTree = "<group>"; };
+		897A2CA7EB3B51C8CEC64F2E3EF9CA9E /* SKActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
+		8DACD0EEBFBB5617C927A5E824DE1D0C /* SKActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKActivityIndicatorView.framework; path = SKActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CB6B8E13651362CA912CF1C8753196BD /* Pods-SKActivityIndicatorView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKActivityIndicatorView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D77C176B530FEC14041DCE69CED78AB1 /* SKActivityIndicatorView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SKActivityIndicatorView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DDBF12D5436329F12B62ABE2D5DA8B45 /* SKActivityIndicatorViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKActivityIndicatorViewStyle.swift; path = SKActivityIndicatorView/Classes/SKActivityIndicatorViewStyle.swift; sourceTree = "<group>"; };
+		E3D0D4F39EEDDA7C81B1CCD5E1238F69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4A99DC3E5752162B0AC03D7FB79FB53 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F96336567D7F58947E9E1904AE8DE833 /* Pods-SKActivityIndicatorView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKActivityIndicatorView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE2BA8426DB9F8ED5D250CC9A2422237 /* SKActivityIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKActivityIndicatorView.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00794EF37F5ED50CD911286C29EC3766 /* Frameworks */ = {
+		11451DB7F030DE1EC86275147AF5D810 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				606844539DF29A3D11AFB1716242324C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8660A3D5DD312381C436FC38A013C587 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A47694943E5F773305E00B075565B76D /* Foundation.framework in Frameworks */,
+				FC42112B4A29C1C78BF35DDC1C5F36A7 /* Foundation.framework in Frameworks */,
+				147E8C65FAE2E9DA6E19135CD4088E80 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,78 +71,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C08068F05501AAAB8E8D5D0CBFA9D98 /* Foundation.framework in Frameworks */,
+				3BF7B64FF09C56D523610905095CB745 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		183BB1D2AA714A4423DE55B4425A0F6D /* Pods-SKActivityIndicatorView_Tests */ = {
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				FD620CA464267F58796B184E7D9FB7AC /* Info.plist */,
-				4A7C23F581FE7933384BFF3632EC0998 /* Pods-SKActivityIndicatorView_Tests.modulemap */,
-				09C7C8487A7EEB15A10220B4089A2533 /* Pods-SKActivityIndicatorView_Tests-acknowledgements.markdown */,
-				4BEF481E649605C584AD344231C6223A /* Pods-SKActivityIndicatorView_Tests-acknowledgements.plist */,
-				D2D1FC241C2C1BFC9787594A476B0597 /* Pods-SKActivityIndicatorView_Tests-dummy.m */,
-				29FB0D6E3B84F690D18475C8D877CC17 /* Pods-SKActivityIndicatorView_Tests-frameworks.sh */,
-				9A365E400CE5D073535B664AA14A1458 /* Pods-SKActivityIndicatorView_Tests-resources.sh */,
-				5B69D33A825CAAF9441D5EA48780839F /* Pods-SKActivityIndicatorView_Tests-umbrella.h */,
-				8690870FB746657E93B9AF067B44BA35 /* Pods-SKActivityIndicatorView_Tests.debug.xcconfig */,
-				431CD1BC8944C7E68B001D6C79FDEF99 /* Pods-SKActivityIndicatorView_Tests.release.xcconfig */,
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
 			);
-			name = "Pods-SKActivityIndicatorView_Tests";
-			path = "Target Support Files/Pods-SKActivityIndicatorView_Tests";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		250CF547808DB821591E414C01AD53A5 /* Support Files */ = {
+		110EFF63AF166D75764E6CF75FFAABD1 /* SKActivityIndicatorView */ = {
 			isa = PBXGroup;
 			children = (
-				E82A4DD17F98C25852297A62C11B839C /* Info.plist */,
-				A46107715F2C0F44E4D69A3091436D7F /* SKActivityIndicatorView.modulemap */,
-				3AD278D3FD9B32C1BCE98A4E544B3621 /* SKActivityIndicatorView.xcconfig */,
-				A53A581056832F2966140954260A4126 /* SKActivityIndicatorView-dummy.m */,
-				7A7006E4547A3B7F2E6B98A42EFDD2B1 /* SKActivityIndicatorView-prefix.pch */,
-				FAFB815ABE78BCD499E03DEC72A666C1 /* SKActivityIndicatorView-umbrella.h */,
+				6FFC7EF90B7994027D9B9A955F0F5AC5 /* SKActivityIndicatorView.swift */,
+				DDBF12D5436329F12B62ABE2D5DA8B45 /* SKActivityIndicatorViewStyle.swift */,
+				BBF71BCF2C713517F9128C0F6C725234 /* Pod */,
+				8B604119DA527012AA8BD28D45497DB2 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SKActivityIndicatorView";
+			name = SKActivityIndicatorView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		2A6FFDF3D5B54984CB951E9C255A9538 /* Pods-SKActivityIndicatorView_Example */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C085467844C2AE34DB1D1FABD91A4B86 /* Info.plist */,
-				639C8AB8DC473DA72FAA381401D75CED /* Pods-SKActivityIndicatorView_Example.modulemap */,
-				F3D71CA32D32E31DA684A035B4233FC8 /* Pods-SKActivityIndicatorView_Example-acknowledgements.markdown */,
-				DCFD2970C4EE0C03D2BF397EC20983B7 /* Pods-SKActivityIndicatorView_Example-acknowledgements.plist */,
-				35D4ED28CFFB70F48570A2702DB94EC5 /* Pods-SKActivityIndicatorView_Example-dummy.m */,
-				6418AEFEB6F2FDC877936A5B7AF0BDC0 /* Pods-SKActivityIndicatorView_Example-frameworks.sh */,
-				A2F61222673CA035E4BE4F600D83DFA9 /* Pods-SKActivityIndicatorView_Example-resources.sh */,
-				610EED20B8D539F205314A0D780AF513 /* Pods-SKActivityIndicatorView_Example-umbrella.h */,
-				0E50DD1DA14949E720C1B1053E26E347 /* Pods-SKActivityIndicatorView_Example.debug.xcconfig */,
-				DBF8F84F045A19720A8BA8A8BB3BDDD2 /* Pods-SKActivityIndicatorView_Example.release.xcconfig */,
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
 			);
-			name = "Pods-SKActivityIndicatorView_Example";
-			path = "Target Support Files/Pods-SKActivityIndicatorView_Example";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3E94372D28F10F1F18B150703941CD26 /* Products */ = {
+		55748AAA6DB049852D9999F17DA29F62 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				039ADF696504640FDEA17BFF4D31CD8B /* Pods_SKActivityIndicatorView_Example.framework */,
-				758BCB0076C47AD6A3E90EC71D489F04 /* Pods_SKActivityIndicatorView_Tests.framework */,
-				1AECD5E8A1C432C7EB1BF3BFC6C62E74 /* SKActivityIndicatorView.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		532763ED96D494CEC5E0567336E2C699 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2A6FFDF3D5B54984CB951E9C255A9538 /* Pods-SKActivityIndicatorView_Example */,
-				183BB1D2AA714A4423DE55B4425A0F6D /* Pods-SKActivityIndicatorView_Tests */,
+				BF01A3447939D92055F7323EDFFE631E /* Pods-SKActivityIndicatorView_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -167,46 +119,70 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				DF6A32D688591C80B2B32F4731B4369A /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				3E94372D28F10F1F18B150703941CD26 /* Products */,
-				532763ED96D494CEC5E0567336E2C699 /* Targets Support Files */,
+				B65EB7A33AEE0D752DECBC49B15E0A81 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				8FE10E5288C1293A708B4EED59F880B3 /* Products */,
+				55748AAA6DB049852D9999F17DA29F62 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		8B604119DA527012AA8BD28D45497DB2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				E3D0D4F39EEDDA7C81B1CCD5E1238F69 /* Info.plist */,
+				3B59F87FE379AEF7BE170B812EA7FA04 /* SKActivityIndicatorView.modulemap */,
+				FE2BA8426DB9F8ED5D250CC9A2422237 /* SKActivityIndicatorView.xcconfig */,
+				487B3022959BB8946384FF3EC4F89FFC /* SKActivityIndicatorView-dummy.m */,
+				5DC1AF9BB9B6E4DE56EE9C641209A8F0 /* SKActivityIndicatorView-prefix.pch */,
+				897A2CA7EB3B51C8CEC64F2E3EF9CA9E /* SKActivityIndicatorView-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SKActivityIndicatorView";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		8FE10E5288C1293A708B4EED59F880B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				415B9A76E598002345A6513655EE740B /* Pods_SKActivityIndicatorView_Example.framework */,
+				8DACD0EEBFBB5617C927A5E824DE1D0C /* SKActivityIndicatorView.framework */,
 			);
-			name = iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		DF6A32D688591C80B2B32F4731B4369A /* Development Pods */ = {
+		B65EB7A33AEE0D752DECBC49B15E0A81 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F27C66D4A3A72A8D57B8699998BDF1F4 /* SKActivityIndicatorView */,
+				110EFF63AF166D75764E6CF75FFAABD1 /* SKActivityIndicatorView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		F27C66D4A3A72A8D57B8699998BDF1F4 /* SKActivityIndicatorView */ = {
+		BBF71BCF2C713517F9128C0F6C725234 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				250CF547808DB821591E414C01AD53A5 /* Support Files */,
-				0306A7DA1FEC355F00C9134C /* SKActivityIndicatorView.swift */,
-				0306A7DC1FEC357100C9134C /* SKActivityIndicatorViewStyle.swift */,
+				395D9462B5A70D510B9FB916EEA9323F /* LICENSE */,
+				E4A99DC3E5752162B0AC03D7FB79FB53 /* README.md */,
+				D77C176B530FEC14041DCE69CED78AB1 /* SKActivityIndicatorView.podspec */,
 			);
-			name = SKActivityIndicatorView;
-			path = ../..;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BF01A3447939D92055F7323EDFFE631E /* Pods-SKActivityIndicatorView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2F028B01FA3AF66B61ED7341548A852C /* Info.plist */,
+				00195C65D5F4BD050C2A1837545ECF0A /* Pods-SKActivityIndicatorView_Example.modulemap */,
+				0C4F4939196E66192F9C0ED4CFDC3065 /* Pods-SKActivityIndicatorView_Example-acknowledgements.markdown */,
+				F96336567D7F58947E9E1904AE8DE833 /* Pods-SKActivityIndicatorView_Example-acknowledgements.plist */,
+				6EA5F25FE6AD2895C709873DF217AAAB /* Pods-SKActivityIndicatorView_Example-dummy.m */,
+				1F35B1B412F6E19DE9ECA3F0E9519FE8 /* Pods-SKActivityIndicatorView_Example-frameworks.sh */,
+				21D1926CB3F6CDFCA4C17216BD3BE0BA /* Pods-SKActivityIndicatorView_Example-resources.sh */,
+				0B082A87CCF57B70D20D690ED220A26A /* Pods-SKActivityIndicatorView_Example-umbrella.h */,
+				CB6B8E13651362CA912CF1C8753196BD /* Pods-SKActivityIndicatorView_Example.debug.xcconfig */,
+				33F3ABC65894AA99AC8F42D7CA4CD108 /* Pods-SKActivityIndicatorView_Example.release.xcconfig */,
+			);
+			name = "Pods-SKActivityIndicatorView_Example";
+			path = "Target Support Files/Pods-SKActivityIndicatorView_Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,14 +204,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4D082203981EFAEC822F633B2FF3AF4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7261F04274333491576A7EEF3779F306 /* Pods-SKActivityIndicatorView_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -254,15 +222,15 @@
 			);
 			name = "Pods-SKActivityIndicatorView_Example";
 			productName = "Pods-SKActivityIndicatorView_Example";
-			productReference = 039ADF696504640FDEA17BFF4D31CD8B /* Pods_SKActivityIndicatorView_Example.framework */;
+			productReference = 415B9A76E598002345A6513655EE740B /* Pods_SKActivityIndicatorView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C76DCA0B112CF14642972C993D15EEC2 /* SKActivityIndicatorView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D0D49B99B789C8BB4D007EC7D1C7B29 /* Build configuration list for PBXNativeTarget "SKActivityIndicatorView" */;
 			buildPhases = (
-				78F907FA1CAB0203B6D2088EA8DB6CA4 /* Sources */,
-				8660A3D5DD312381C436FC38A013C587 /* Frameworks */,
+				8C8E1878A84D27609AC16885F90103D4 /* Sources */,
+				11451DB7F030DE1EC86275147AF5D810 /* Frameworks */,
 				725E1DB6854705519A0BA53F6F557774 /* Headers */,
 			);
 			buildRules = (
@@ -271,24 +239,7 @@
 			);
 			name = SKActivityIndicatorView;
 			productName = SKActivityIndicatorView;
-			productReference = 1AECD5E8A1C432C7EB1BF3BFC6C62E74 /* SKActivityIndicatorView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DD092920C4B266EA14B5AA5269254363 /* Pods-SKActivityIndicatorView_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 66638C4C1947A65E4711751ECC00C296 /* Build configuration list for PBXNativeTarget "Pods-SKActivityIndicatorView_Tests" */;
-			buildPhases = (
-				53FE2F4E77601D6DFE662445DC2A1848 /* Sources */,
-				00794EF37F5ED50CD911286C29EC3766 /* Frameworks */,
-				D4D082203981EFAEC822F633B2FF3AF4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-SKActivityIndicatorView_Tests";
-			productName = "Pods-SKActivityIndicatorView_Tests";
-			productReference = 758BCB0076C47AD6A3E90EC71D489F04 /* Pods_SKActivityIndicatorView_Tests.framework */;
+			productReference = 8DACD0EEBFBB5617C927A5E824DE1D0C /* SKActivityIndicatorView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -297,13 +248,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 1010;
-				TargetAttributes = {
-					C76DCA0B112CF14642972C993D15EEC2 = {
-						LastSwiftMigration = 0920;
-					};
-				};
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -313,33 +259,24 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3E94372D28F10F1F18B150703941CD26 /* Products */;
+			productRefGroup = 8FE10E5288C1293A708B4EED59F880B3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				6FBF2DCDE946946CC74E58508973738F /* Pods-SKActivityIndicatorView_Example */,
-				DD092920C4B266EA14B5AA5269254363 /* Pods-SKActivityIndicatorView_Tests */,
 				C76DCA0B112CF14642972C993D15EEC2 /* SKActivityIndicatorView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		53FE2F4E77601D6DFE662445DC2A1848 /* Sources */ = {
+		8C8E1878A84D27609AC16885F90103D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8A533C2D71FA178217C7E28BC6A6B76 /* Pods-SKActivityIndicatorView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78F907FA1CAB0203B6D2088EA8DB6CA4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48003A4B5D7006EBA054EA1451522DE3 /* SKActivityIndicatorView-dummy.m in Sources */,
-				0306A7DB1FEC355F00C9134C /* SKActivityIndicatorView.swift in Sources */,
-				0306A7DD1FEC357100C9134C /* SKActivityIndicatorViewStyle.swift in Sources */,
+				1ED7B2855A94F850ADFAECCE05C67045 /* SKActivityIndicatorView-dummy.m in Sources */,
+				447DBC17C71AC848C56F4A64082F22CF /* SKActivityIndicatorView.swift in Sources */,
+				7028E79840A29F4515C56D211A14DFD5 /* SKActivityIndicatorViewStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,39 +300,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2214AE3164B4687D3345706AF6C25E9C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AD278D3FD9B32C1BCE98A4E544B3621 /* SKActivityIndicatorView.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SKActivityIndicatorView/SKActivityIndicatorView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SKActivityIndicatorView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SKActivityIndicatorView/SKActivityIndicatorView.modulemap";
-				PRODUCT_NAME = SKActivityIndicatorView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -405,6 +310,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -426,6 +332,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -450,18 +357,16 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		40E9F29F837AC9A7233CA6D22080B2F9 /* Release */ = {
+		59E3A2E05677EA5494378A9773B32CF2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AD278D3FD9B32C1BCE98A4E544B3621 /* SKActivityIndicatorView.xcconfig */;
+			baseConfigurationReference = FE2BA8426DB9F8ED5D250CC9A2422237 /* SKActivityIndicatorView.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -477,6 +382,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SKActivityIndicatorView/SKActivityIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = SKActivityIndicatorView;
 				PRODUCT_NAME = SKActivityIndicatorView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -490,9 +396,44 @@
 			};
 			name = Release;
 		};
-		57DAC7074EC56E4E913322752C0FFAB7 /* Release */ = {
+		B681BBC6B45AE996B010C4FDA9B010A4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 431CD1BC8944C7E68B001D6C79FDEF99 /* Pods-SKActivityIndicatorView_Tests.release.xcconfig */;
+			baseConfigurationReference = 33F3ABC65894AA99AC8F42D7CA4CD108 /* Pods-SKActivityIndicatorView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SKActivityIndicatorView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKActivityIndicatorView_Example/Pods-SKActivityIndicatorView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C73FB041F1C876E909651A8D4E75F816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE2BA8426DB9F8ED5D250CC9A2422237 /* SKActivityIndicatorView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -503,27 +444,61 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SKActivityIndicatorView_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SKActivityIndicatorView/SKActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKActivityIndicatorView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKActivityIndicatorView/SKActivityIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = SKActivityIndicatorView;
+				PRODUCT_NAME = SKActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECE3662FA3E1EBD99699043F3D7C2357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB6B8E13651362CA912CF1C8753196BD /* Pods-SKActivityIndicatorView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SKActivityIndicatorView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SKActivityIndicatorView_Tests/Pods-SKActivityIndicatorView_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SKActivityIndicatorView_Example/Pods-SKActivityIndicatorView_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SKActivityIndicatorView_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -533,6 +508,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -554,6 +530,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -574,110 +551,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		8846AAD159137EFBC2D093EF3E77B255 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8690870FB746657E93B9AF067B44BA35 /* Pods-SKActivityIndicatorView_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SKActivityIndicatorView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SKActivityIndicatorView_Tests/Pods-SKActivityIndicatorView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SKActivityIndicatorView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C4E40D81EBD5DA30B67F19ED5C2AD088 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E50DD1DA14949E720C1B1053E26E347 /* Pods-SKActivityIndicatorView_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SKActivityIndicatorView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SKActivityIndicatorView_Example/Pods-SKActivityIndicatorView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SKActivityIndicatorView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DC3C6A63326AC95D34A946351F4F00B6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBF8F84F045A19720A8BA8A8BB3BDDD2 /* Pods-SKActivityIndicatorView_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SKActivityIndicatorView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SKActivityIndicatorView_Example/Pods-SKActivityIndicatorView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SKActivityIndicatorView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -687,8 +562,8 @@
 		1AC7BBB66A6F95EC370B5CC99E52042C /* Build configuration list for PBXNativeTarget "Pods-SKActivityIndicatorView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4E40D81EBD5DA30B67F19ED5C2AD088 /* Debug */,
-				DC3C6A63326AC95D34A946351F4F00B6 /* Release */,
+				ECE3662FA3E1EBD99699043F3D7C2357 /* Debug */,
+				B681BBC6B45AE996B010C4FDA9B010A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -696,8 +571,8 @@
 		2D0D49B99B789C8BB4D007EC7D1C7B29 /* Build configuration list for PBXNativeTarget "SKActivityIndicatorView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2214AE3164B4687D3345706AF6C25E9C /* Debug */,
-				40E9F29F837AC9A7233CA6D22080B2F9 /* Release */,
+				C73FB041F1C876E909651A8D4E75F816 /* Debug */,
+				59E3A2E05677EA5494378A9773B32CF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -705,17 +580,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
-				731DC216E1A58545B559F6E0A2418060 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		66638C4C1947A65E4711751ECC00C296 /* Build configuration list for PBXNativeTarget "Pods-SKActivityIndicatorView_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8846AAD159137EFBC2D093EF3E77B255 /* Debug */,
-				57DAC7074EC56E4E913322752C0FFAB7 /* Release */,
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
