@@ -32,6 +32,7 @@ class ViewController: UIViewController {
     // MARK: - SKActivityIndicator Styles
     @IBAction func showActivityIndicatorStyle1ButtonTapped(_ sender: Any) {
         SKActivityIndicator.spinnerStyle(.defaultSpinner)
+//        SKActivityIndicator.spinnerColor(.red)
         if let message = messageTextField.text {
             statusMessage = message
         }

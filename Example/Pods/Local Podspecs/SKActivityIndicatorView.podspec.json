@@ -19,7 +19,7 @@
     "ios": "9.0"
   },
   "pod_target_xcconfig": {
-    "SWIFT_VERSION": "4.2"
+    "SWIFT_VERSION": "5.0"
   },
   "source_files": "SKActivityIndicatorView/Classes/**/*",
   "frameworks": [
